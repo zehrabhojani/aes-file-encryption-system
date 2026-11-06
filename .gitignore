@@ -1,0 +1,15 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+venv/
+.venv/
+env/
+
+# Runtime workspace & local SQLite audit database
+web_workspace/
+data/*.sqlite
+sample_files/*.aes
+sample_files/restored_*
